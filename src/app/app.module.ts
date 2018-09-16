@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { GenerateDirective } from './generate.directive';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GenerateDirective
   ],
   imports: [
     BrowserModule
