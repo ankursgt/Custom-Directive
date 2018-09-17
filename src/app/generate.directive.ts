@@ -5,8 +5,6 @@ import { Directive, Input, Renderer2 } from '@angular/core';
 })
 export class GenerateDirective {
 
-  private hasView = false;
-
   constructor(private renderer: Renderer2) { }
 
   @Input() set appGenerate(inv: number){
